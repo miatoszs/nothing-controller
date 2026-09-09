@@ -1,0 +1,12 @@
+[Unit]
+Description=Nothing & CMF Earbuds Bluetooth D-Bus Daemon
+After=bluetooth.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 %h/.local/share/gnome-shell/extensions/nothing-ear@radiance.gnome.org/backend.py
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=default.target

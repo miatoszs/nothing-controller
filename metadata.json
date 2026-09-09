@@ -1,0 +1,17 @@
+{
+  "name": "Nothing & CMF Earbuds",
+  "description": "Full-featured controller for Nothing and CMF Earbuds (Ear 1/2/Stick/Ear/Ear a/open, CMF Buds/Pro/Pro 2). ANC controls, battery levels, Equalizer, Bass Enhance, Low Latency, In-Ear Detection, Gestures and Find My Earbuds directly in Quick Settings.",
+  "uuid": "nothing-ear@radiance.gnome.org",
+  "shell-version": [
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50"
+  ],
+  "settings-schema": "org.gnome.shell.extensions.nothing-ear",
+  "gettext-domain": "nothing-ear",
+  "url": "https://github.com/radiance-project/ear-web",
+  "version": 1
+}

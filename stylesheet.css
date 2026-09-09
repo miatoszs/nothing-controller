@@ -1,0 +1,187 @@
+/* Nothing & CMF Earbuds GNOME Extension Stylesheet */
+
+/* ============================================
+   Disconnected State Card
+   ============================================ */
+
+.nothing-disconnected-box {
+    padding: 28px 24px;
+    spacing: 8px;
+    x-align: center;
+    y-align: center;
+}
+
+.nothing-disconnected-icon {
+    opacity: 0.4;
+    margin-bottom: 6px;
+}
+
+.nothing-disconnected-title {
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+}
+
+.nothing-disconnected-subtitle {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 6px;
+}
+
+/* ============================================
+   Battery Ring Gauges
+   ============================================ */
+
+.nothing-battery-box {
+    spacing: 32px;
+    padding: 16px 20px 10px 20px;
+    x-align: center;
+}
+
+.nothing-battery-indicator {
+    spacing: 6px;
+    min-width: 72px;
+    x-align: center;
+}
+
+.nothing-battery-ring {
+    width: 68px;
+    height: 68px;
+}
+
+.nothing-battery-icon {
+    transition-duration: 200ms;
+}
+
+.nothing-battery-level {
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 4px;
+}
+
+.nothing-battery-name {
+    font-size: 11px;
+    font-weight: 500;
+    text-align: center;
+    opacity: 0.6;
+}
+
+/* ============================================
+   Section Headers & Containers
+   ============================================ */
+
+.nothing-ear-section-header {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: rgba(255, 255, 255, 0.55);
+    margin: 8px 12px 4px 12px;
+}
+
+/* ============================================
+   Noise Control (ANC) Big Buttons
+   ============================================ */
+
+.nothing-nc-box {
+    spacing: 8px;
+    padding: 4px 12px 6px 12px;
+}
+
+.nothing-nc-button {
+    padding: 10px 12px;
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 0.08);
+    min-width: 70px;
+    transition-duration: 150ms;
+}
+
+.nothing-nc-button:hover {
+    background-color: rgba(255, 255, 255, 0.14);
+}
+
+.nothing-nc-button:active,
+.nothing-nc-button:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.nothing-nc-button.active,
+.nothing-nc-button.active:hover,
+.nothing-nc-button.active:focus {
+    background-color: #d71920;
+    color: #ffffff;
+}
+
+.nothing-nc-icon {
+    icon-size: 20px;
+}
+
+.nothing-nc-label {
+    font-size: 11px;
+    font-weight: 600;
+    margin-top: 4px;
+    text-align: center;
+}
+
+.nothing-nc-button.active .nothing-nc-label,
+.nothing-nc-button.active .nothing-nc-icon {
+    color: #ffffff;
+}
+
+/* ============================================
+   Horizontal Button Groups (EQ, Bass, Strength)
+   ============================================ */
+
+.nothing-ear-button-group {
+    spacing: 6px;
+    margin: 2px 12px 6px 12px;
+}
+
+.nothing-ear-mode-btn {
+    font-size: 11px;
+    font-weight: 600;
+    padding: 6px 10px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.08);
+    transition-duration: 150ms;
+}
+
+.nothing-ear-mode-btn:hover {
+    background-color: rgba(255, 255, 255, 0.14);
+}
+
+.nothing-ear-mode-btn.active {
+    background-color: #d71920;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.nothing-ear-strength-btn {
+    font-size: 11px;
+    font-weight: 500;
+    padding: 5px 8px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.06);
+    transition-duration: 150ms;
+}
+
+.nothing-ear-strength-btn:hover {
+    background-color: rgba(255, 255, 255, 0.12);
+}
+
+.nothing-ear-strength-btn.active {
+    background-color: #d71920;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.nothing-ear-ring-btn-active {
+    background-color: #f6d32d !important;
+    color: #000000 !important;
+    font-weight: 700;
+}

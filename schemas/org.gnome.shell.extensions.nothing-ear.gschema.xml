@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="nothing-ear">
+  <schema id="org.gnome.shell.extensions.nothing-ear" path="/org/gnome/shell/extensions/nothing-ear/">
+    <key name="show-battery-in-panel" type="b">
+      <default>true</default>
+      <summary>Show battery percentage in panel</summary>
+      <description>Display the lowest earbud battery percentage directly in the top panel.</description>
+    </key>
+    <key name="show-anc-in-panel" type="b">
+      <default>true</default>
+      <summary>Show ANC status in panel</summary>
+      <description>Display the current ANC mode text next to the icon in the Quick Settings toggle.</description>
+    </key>
+    <key name="enable-battery-notifications" type="b">
+      <default>true</default>
+      <summary>Battery notifications</summary>
+      <description>Notify when earbud battery drops below 20%.</description>
+    </key>
+    <key name="preferred-device-address" type="s">
+      <default>""</default>
+      <summary>Preferred device address</summary>
+      <description>Bluetooth MAC address of the preferred Nothing/CMF device to connect to.</description>
+    </key>
+    <key name="rfcomm-channel" type="i">
+      <default>0</default>
+      <summary>RFCOMM Channel</summary>
+      <description>Bluetooth RFCOMM channel (0 for auto-discovery, or specify 15/3/etc).</description>
+    </key>
+  </schema>
+</schemalist>
