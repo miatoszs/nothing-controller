@@ -12,6 +12,6 @@
   ],
   "settings-schema": "org.gnome.shell.extensions.nothing-ear",
   "gettext-domain": "nothing-ear",
-  "url": "https://github.com/radiance-project/ear-web",
+  "url": "https://github.com/miatoszs/nothing-controller",
   "version": 1
 }
